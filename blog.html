@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="공덕 노래방 내돈내산 블로그. 공덕역 3번 출구 앞 24시 노래방, 진짜 후기만 쓴다. 가성비 미친 음질, 개인 테라스 루프탑. 010-6279-0862">
+<meta name="keywords" content="공덕 노래방 내돈내산 블로그, 공덕 노래방 후기, 공덕 코인노래방 추천, 마포 노래방 가성비, 공덕역 노래방 24시">
+<meta name="bpaas-design-system" content="brutalist-avantgarde">
+<meta name="bpaas-design-theme" content="kr-raw-concrete">
+<meta property="og:title" content="공덕 노래방 내돈내산 블로그 | 진짜 후기만">
+<meta property="og:description" content="공덕 노래방 내돈내산 블로그. 음질 미친 노래방, 루프탑 테라스까지. 010-6279-0862">
+<meta property="og:type" content="website">
+<style>
+/* RESET & BASE */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { font-size: 16px; scroll-behavior: smooth; }
+body { font-family: 'Arial Black', 'Impact', 'Helvetica Neue', sans-serif; background: #1a1a1a; color: #e0e0e0; line-height: 1.4; min-height: 100vh; }
+
+/* TYPOGRAPHY DNA */
+h1, h2, h3, h4 { font-weight: 900; text-transform: uppercase; letter-spacing: -1px; }
+h1 { font-size: 3.5rem; color: #ff3366; text-shadow: 4px 4px 0 #000; line-height: 0.9; margin-bottom: 1rem; }
+h2 { font-size: 2.5rem; color: #ffcc00; border-left: 8px solid #ff3366; padding-left: 1rem; margin: 2rem 0 1rem; }
+h3 { font-size: 1.8rem; color: #fff; margin: 1.5rem 0 0.8rem; }
+p, li { font-size: 1.1rem; line-height: 1.6; margin-bottom: 1rem; color: #ccc; }
+a { color: #ff3366; text-decoration: none; font-weight: bold; border-bottom: 3px solid transparent; transition: 0.2s; }
+a:hover { border-bottom-color: #ffcc00; color: #ffcc00; }
+
+/* BRUTALIST UTILITIES */
+.brutal-border { border: 4px solid #ff3366; box-shadow: 6px 6px 0 #000; }
+.brutal-border-accent { border: 4px solid #ffcc00; box-shadow: 6px 6px 0 #000; }
+.skew-left { transform: skewX(-5deg); }
+.skew-right { transform: skewX(5deg); }
+
+/* LAYOUT */
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+/* HEADER */
+header { background: #0d0d0d; padding: 1.5rem 0; border-bottom: 6px solid #ff3366; position: sticky; top: 0; z-index: 100; }
+.header-inner { display: flex; justify-content: space-between; align-items: center; }
+.logo { font-size: 2.2rem; font-weight: 900; color: #ff3366; text-transform: uppercase; letter-spacing: -2px; }
+.logo span { color: #ffcc00; }
+
+/* NAV - HAMBURGER PATTERN */
+nav { position: relative; }
+.nav-list { display: flex; list-style: none; gap: 2rem; }
+.nav-list a { font-size: 1.2rem; text-transform: uppercase; color: #fff; border-bottom: none; padding: 0.5rem 0; }
+.nav-list a:hover { color: #ff3366; }
+.hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 10px; }
+.hamburger span { width: 30px; height: 4px; background: #ff3366; display: block; }
+
+/* HERO */
+.hero { padding: 4rem 0; background: linear-gradient(135deg, #1a1a1a 0%, #2a0a0a 100%); text-align: center; }
+.hero h1 { font-size: 4rem; margin-bottom: 0.5rem; }
+.hero p { font-size: 1.4rem; color: #ffcc00; font-weight: bold; }
+
+/* BLOG POST */
+.blog-post { padding: 3rem 0; }
+.post-card { background: #222; padding: 2rem; margin-bottom: 2rem; }
+.post-card h2 { margin-top: 0; }
+.post-meta { font-size: 0.9rem; color: #888; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 1rem; }
+.post-content { margin-top: 1.5rem; }
+.post-content ul { list-style: none; padding-left: 0; }
+.post-content ul li { padding-left: 1.5rem; position: relative; }
+.post-content ul li::before { content: '▸'; color: #ff3366; position: absolute; left: 0; font-size: 1.3rem; }
+.highlight-box { background: #2a2a2a; border-left: 8px solid #ffcc00; padding: 1.5rem; margin: 1.5rem 0; }
+.highlight-box p { margin: 0; color: #fff; font-size: 1.2rem; }
+
+/* TEL LINK */
+.tel-link { display: inline-block; background: #ff3366; color: #fff !important; padding: 0.8rem 2rem; font-size: 1.5rem; font-weight: 900; border: none; box-shadow: 4px 4px 0 #000; text-transform: uppercase; letter-spacing: 2px; transition: 0.2s; border-bottom: none !important; }
+.tel-link:hover { background: #ffcc00; color: #000 !important; transform: translate(-2px, -2px); box-shadow: 6px 6px 0 #000; }
+
+/* FAQ */
+.faq { padding: 3rem 0; background: #111; }
+.faq-item { margin-bottom: 1rem; }
+.faq-question { font-weight: 900; color: #ff3366; cursor: pointer; padding: 1rem; background: #222; border-left: 4px solid #ffcc00; }
+.faq-answer { padding: 1rem; background: #1a1a1a; display: none; }
+.faq-answer.show { display: block; }
+
+/* FOOTER */
+footer { background: #0d0d0d; padding: 2rem 0; text-align: center; border-top: 6px solid #ff3366; }
+footer p { font-size: 0.9rem; color: #666; }
+
+/* RESPONSIVE 768 */
+@media (max-width: 768px) {
+  h1 { font-size: 2.2rem; }
+  h2 { font-size: 1.8rem; }
+  .hero h1 { font-size: 2.5rem; }
+  .nav-list { display: none; flex-direction: column; position: absolute; top: 100%; right: 0; background: #0d0d0d; padding: 1rem; border: 4px solid #ff3366; min-width: 200px; }
+  .nav-list.active { display: flex; }
+  .hamburger { display: flex; }
+  .tel-link { font-size: 1.2rem; padding: 0.6rem 1.5rem; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container header-inner">
+    <div class="logo">공덕<span>노래방</span></div>
+    <nav>
+      <button class="hamburger" onclick="document.querySelector('.nav-list').classList.toggle('active')">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-list">
+        <li><a href="/">홈</a></li>
+        <li><a href="/about">소개</a></li>
+        <li><a href="/review">리뷰</a></li>
+        <li><a href="/blog">블로그</a></li>
+        <li><a href="tel:010-6279-0862" class="tel-link">전화</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>공덕 노래방 내돈내산<br>블로그</h1>
+    <p>진짜 후기. 가짜 거르고. 닥치고 전화 010-6279-0862</p>
+    <a href="tel:010-6279-0862" class="tel-link">지금 전화 걸어</a>
+  </div>
+</section>
+
+<section class="blog-post">
+  <div class="container">
+    <article class="post-card brutal-border">
+      <div class="post-meta">2024.12.15 | 공덕 노래방 내돈내산 | 작성자: 브로</div>
+      <h2>공덕 노래방 내돈내산 — 진짜 가성비 끝판왕 찾았다</h2>
+      <div class="post-content">
+        <p>야, 공덕에서 노래방 찾는 놈들아. 니들 돈 아깝게 쓰지 마라. 내가 공덕역 3번 출구 앞에서 직접 3시간 불렀다. 진짜 내돈내산이다.</p>
+        <p>이 노래방, 가성비가 미쳤다. 1시간에 5천원. 근데 음질이 ㄹㅇ 개쩔어. JBL 스피커에 야마하 리버브. 내 목소리가 프로 가수된 기분이야. 코인노래방이라고 얕보지 마라. 여기 방음도 찰지다.</p>
+        <div class="highlight-box">
+          <p>🔥 핵심 요약: 가성비 ★★★★★, 음질 ★★★★★, 분위기 ★★★★★<br>
+          전화 010-6279-0862 — 닥치고 예약해라</p>
+        </div>
+        <p>개인 루프탑 테라스가 있다. 노래 부르다가 밤공기 쐬러 나가면 공덕 야경이 펼쳐짐. 인스타용 사진도 찍고, 담배 한 대 피고 다시 들어가면 된다. 24시라 새벽 3시에도 가능.</p>
+        <ul>
+          <li><strong>위치:</strong> 공덕역 3번 출구 도보 30초</li>
+          <li><strong>가격:</strong> 1시간 5천원, 2시간 8천원, 3시간 1만원</li>
+          <li><strong>특징:</strong> 개인 루프탑, JBL 사운드, 24시</li>
+          <li><strong>전화:</strong> 010-6279-0862</li>
+        </ul>
+        <p>솔직히 말한다. 공덕에서 이 가격에 이 음질 나오는 곳 없다. 내가 5군데 돌아다녀봤다. 다 거기서 거기인데, 여기는 진짜 다르다. 코인노래방 좋아하는 놈들은 꼭 가봐라. 후회 안 시킨다.</p>
+        <p>전화 번호는 010-6279-0862. 문자도 받는다. 예약 필수다. 주말에는 웨이팅 기본 30분이니까 미리 전화해라.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="faq">
+  <div class="container">
+    <h2>자주 묻는 질문</h2>
+    <div class="faq-item">
+      <div class="faq-question">공덕 노래방 내돈내산 진짜야?</div>
+      <div class="faq-answer">내가 직접 3시간 불렀다. 돈 내고 간 곳이다. 가짜 후기 아니니까 믿어라.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">코인노래방이랑 뭐가 달라?</div>
+      <div class="faq-answer">일반 코인노래방은 음질이 구린데, 여기는 JBL 스피커에 전문 리버브. 방음도 찰지고 루프탑까지 있다.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">예약 어떻게 해?</div>
+      <div class="faq-answer">010-6279-0862로 전화해라. 문자도 가능. 24시 운영이라 새벽에도 받는다.</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>© 2024 공덕 노래방 내돈내산 | 솔직 후기, 가짜 거르고 | 전화 010-6279-0862</p>
+  </div>
+</footer>
+
+<script>
+document.querySelectorAll('.faq-question').forEach(q => {
+  q.addEventListener('click', () => {
+    const answer = q.nextElementSibling;
+    answer.classList.toggle('show');
+  });
+});
+</script>
+</body>
+</html>
